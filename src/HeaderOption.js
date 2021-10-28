@@ -1,12 +1,13 @@
 import React from 'react';
-import "./InputOption.css";
+import "./HeaderOption.css";
 
-function InputOption({ Icon, title, color}) {
-    return <div className="InputOption">
-        <Icon style={{ color: color}} />
-        <h4>{title}</h4>
-    </div>;
-    
+function HeaderOption({ Icon, title, color}) {
+    return (
+        <div className="HeaderOption">
+        {Icon && <Icon className="headerOption__icon" />}
+        <h3 className="headerOption__title">{title}</h3>
+    </div>
+    );
 }
 
-export default InputOption
+export default HeaderOption;

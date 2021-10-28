@@ -1,5 +1,7 @@
 .header {
     display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
 }
 
 .header__left {
@@ -12,8 +14,9 @@
     margin-right: 10px;
 }
 
-.header__right
-
+.header__right {
+    display: flex;
+}
 .header__search {
     padding: 10px;
     display: flex;
