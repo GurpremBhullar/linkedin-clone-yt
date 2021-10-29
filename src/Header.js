@@ -9,7 +9,7 @@ import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-
+import Gurprem from "./gurprem.jpg";
 
 
 function Header() {
@@ -29,10 +29,11 @@ function Header() {
 
             <div className="header__right">
                 <HeaderOption Icon={HomeIcon} title="Home" />
-                <HeaderOption Icon={SupervisorAccountIcon} title="SupervisorAccount" />
-                <HeaderOption Icon={BusinessCenterIcon} title="BusinessCenter" />
-                <HeaderOption Icon={ChatIcon} title="Chat" />
+                <HeaderOption Icon={SupervisorAccountIcon} title="My Network" />
+                <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
+                <HeaderOption Icon={ChatIcon} title="Messaging" />
                 <HeaderOption Icon={NotificationsIcon} title="Notifications" />
+                <HeaderOption avatar={Gurprem} title="me" />
             </div>
 
         </div>
